@@ -12,10 +12,27 @@ In this particulat code we'll see four types of number representation of an inte
 This algorithm includes the following steps: 1)Include <iostream> and <bitset> headers. ;2)Declare num as an integer and set it to 18. ;3)Output num in hexadecimal format with 0x prefix using cout, showbase, and hex. ;4)Output num in decimal format using cout, showbase, and dec. ;5)Output num in octal format with 0 prefix using cout, showbase, and oct. ;5)Output binary representation of num using cout and bitset<16>(num). ;6)Return 0 to indicate successful program completion.
 
 # Explanation of Code:
-**Include Header Files**:Include the <iostream> header for input and output operations.
-Include the <bitset> header for working with binary representations. ;**Namespace Declaration**:Use the using namespace std; declaration to avoid prefixing standard library elements with std::. ;**Main Function**:Define the main function where the program execution starts. ;**Variable Declaration**:Declare an integer variable num and assign it the value 18. ;**Printing in Hexadecimal**:Use cout to display the value of num in hexadecimal format with the 0x prefix.Use the showbase manipulator to indicate the base of the number system.Use the hex manipulator to specify that the output should be in hexadecimal. ;
+**Include Header Files**:Include the <iostream> header for input and output operations.Include the <bitset> header for working with binary representations. ;**Namespace Declaration**:Use the using namespace std; declaration to avoid prefixing standard library elements with std::. **Main Function**:Define the main function where the program execution starts. ;**Variable Declaration**:Declare an integer variable num and assign it the value 18. ;**Printing in Hexadecimal**:Use cout to display the value of num in hexadecimal format with the 0x prefix.Use the showbase manipulator to indicate the base of the number system.Use the hex manipulator to specify that the output should be in hexadecimal. ;
 **Printing in Decimal**:Use cout to display the value of num in decimal format.
 Use the showbase manipulator to indicate the base of the number system.Use the dec manipulator to specify that the output should be in decimal. ;**Printing in Octal**:Use cout to display the value of num in octal format with the 0 prefix.
 Use the showbase manipulator to indicate the base of the number system.Use the oct manipulator to specify that the output should be in octal. ;**Printing Binary Representation**:Use cout to display the binary representation of num using the bitset class.Create a bitset<16> object, initializing it with the binary representation of num.The <16> specifies that the bitset should use 16 bits for representation. ;**End of Main Function**:Return 0 to indicate successful program execution.
 
-**ENG OF CODE-3**
+**END OF CODE-3**
+
+
+# Code-4
+
+# Title:
+To demonstrates how to determine whether a given number is even or odd using bitwise operations.
+
+# Theory:
+Bitwise operations are fundamental operations that manipulate individual bits within integer values. They are often used in low-level programming, data manipulation and optimization. 
+
+# Algorithm:
+Algorithm includes the following steps: 1)Include necessary header files. ;2)Declare num and bit as integers. ;3)Perform num & 1 bitwise AND operation and store the result in bit. ;4)If bit is equal to 1, print "The Number is Odd". ;5)Otherwise, print "The Number is Even". ;6)Return 0 to indicate successful program completion.
+
+# Explanation of Code:
+**Include Header Files**:The #include directives include the necessary header files for input/output and the std::bitset class. ;**Namespace Declaration**:The using namespace std; declaration allows you to use standard library elements without the std:: prefix. ;**Main Function**:The main function is where the program starts execution. ;**Bitwise AND Operation**:The result of num & 1 is 1 if the least significant bit of num is 1 (odd number) and 0 if it's 0 (even number). This operation checks whether the number is odd or even based on its least significant bit. ;**Condition Check and Output**:(i)If bit is equal to 1, the least significant bit of num is 1, which means num is an odd number. So, "The Number is Odd" is printed. (ii)If bit is not equal to 1 (i.e., it's 0), then the least significant bit of num is 0, indicating that num is an even number. So, "The Number is Even" is printed. ;**End of Main Function**:The program returns 0 to indicate successful program completion.
+When you run this code with num set to 1, it will output: **The Number is ODD**
+
+**END OF CODE-4**
