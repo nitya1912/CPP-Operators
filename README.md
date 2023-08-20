@@ -36,3 +36,20 @@ Algorithm includes the following steps: 1)Include necessary header files. ;2)Dec
 When you run this code with num set to 1, it will output: **The Number is ODD**
 
 **END OF CODE-4**
+
+
+# Code-5
+
+# Title: 
+To demonstrates various arithmetic, bitwise, increment, decrement, and logical operations on two integer variables.
+
+# Theory:
+The various operations on integer variables are as follows: **Arithmetic Operations**:Addition, subtraction, multiplication, division, and modulo between num1 (4) and num2 (2). ;**Bitwise Operations**:Left shift (<<) and right shift (>>) operations on num1.Bitwise AND (&) operation between num1 and num2. ;**Increment and Decrement**:Increment (++) of num1.Decrement (--) of num2. ;**Logical and Bitwise Logical Operations**:Logical AND (&&) operation between num1 and num2.Bitwise AND (&) operation between num1 and num2.
+
+# Algorithm:
+Algorithm includes: 1)Include necessary header files. ;2)Declare integer variables num1 and num2. ;3)Calculate arithmetic operations and store results. ;4)Perform bitwise operations and store results. ;5)Increment and decrement variables. ;6)Perform logical operations and store results. ;7)Use cout to output the results. ;8)Return 0 to indicate successful program completion. 
+
+# Explanation of Code:
+**Include Header Files**:Include the <iostream> header for input and output operations. ;**Namespace Declaration**:Use the using namespace std; declaration to avoid prefixing standard library elements with std::. ;**Main Function**:Define the main function where the program execution starts. ;**Variable Declarations and Initialization**:Declare integer variables num1 and num2 and initialize them to 4 and 2, respectively. ;**Arithmetic Operations**:Calculate the sum of num1 and num2 and store it in add.Calculate the difference of num1 and num2 and store it in sub.Calculate the product of num1 and num2 and store it in mult.Calculate the quotient of num1 divided by num2 and store it in div.Calculate the remainder of num1 divided by num2 and store it in mod. ;**Bitwise Operations**:Perform a left shift of num1 by num2 positions and store the result in ls.Perform a right shift of num1 by num2 positions and store the result in rs.Perform a bitwise AND operation between num1 and num2 and store the result in bit.**Increment and Decrement Operations**:Increment num1 and store the result in incr.Decrement num2 and store the result in decr.**Logical and Bitwise Logical Operations**:Perform a logical AND operation between num1 and num2 and store the result in logic. ;**Output**:Use cout to display the values of add, sub, mult, div, mod, ls, rs, incr, decr, logic, and bit, each followed by a newline. ;**End of Main   Function**:Return 0 to indicate successful program execution.
+
+**END IN CODE-5**
